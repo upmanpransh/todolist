@@ -1,0 +1,16 @@
+{
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/app.js"
+        },
+        {
+            "src":"/app",
+            "methods":[
+                "POST",
+                "GET"
+            ],
+            "dest":"/app.js"
+        }
+    ]
+}
